@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/png" href="logo.png" />
+    <title>File Store</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="login-container">
+        <h1>File Store Login</h1>
+        <div class="login-box">
+            <input type="text" id="username" placeholder="Username" required>
+            <input type="password" id="password" placeholder="Password" required>
+            <button onclick="login()">Login</button>
+            <p id="error-msg"></p>
+        </div>
+    </div>
+
+    <div class="container" id="file-store" style="display: none;">
+        <h1>File Store</h1>
+        <input type="text" id="search" placeholder="Search files...">
+        <div id="file-list">
+            <div class="file-item">
+                <span>AADHAR CARD</span>
+                <a href="aadhar.pdf" target="_blank"><button class="preview-btn">Preview</button></a>
+                <a href="aadhar.pdf" download><button class="download-btn">Download</button></a>
+            </div>
+            
+            <div class="file-item">
+                <span>BIRTH CERTIFICATE</span>
+                <a href="birth certificate.pdf" target="_blank"><button class="preview-btn">Preview</button></a>
+                <a href="birth certificate.pdf" download><button class="download-btn">Download</button></a>
+            </div>
+            <div class="file-item">
+                <span>CASTE CERTIFICATE</span>
+                <a href="Caste certificate.pdf" target="_blank"><button class="preview-btn">Preview</button></a>
+                <a href="Caste certificate.pdf" download><button class="download-btn">Download</button></a>
+            </div>
+            <div class="file-item">
+                <span>INCOME CERTIFICATE</span>
+                <a href="income.pdf" target="_blank"><button class="preview-btn">Preview</button></a>
+                <a href="income.pdf" download><button class="download-btn">Download</button></a>
+            </div>
+            <div class="file-item">
+                <span>VOTER CARD</span>
+                <a href="2100031744_AADHAR.pdf" target="_blank"><button class="preview-btn">Preview</button></a>
+                <a href="2100031744_AADHAR.pdf" download><button class="download-btn">Download</button></a>
+            </div>
+            
+            <div class="file-item">
+                <span>BANK BOOK</span>
+                <a href="bank pass book.pdf" target="_blank"><button class="preview-btn">Preview</button></a>
+                <a href="bank pass book.pdf" download><button class="download-btn">Download</button></a>
+            </div>
+            <div class="file-item">
+                <span>10TH MARKS LIST</span>
+                <a href="SSC certificate.pdf" target="_blank"><button class="preview-btn">Preview</button></a>
+                <a href="SSC certificate.pdf" download><button class="download-btn">Download</button></a>
+            </div>
+            <div class="file-item">
+                <span>12TH MARKS LIST</span>
+                <a href="Inter certificate.pdf" target="_blank"><button class="preview-btn">Preview</button></a>
+                <a href="Inter certificate.pdf" download><button class="download-btn">Download</button></a>
+            </div>
+            <div class="file-item">
+                <span>DEGREE TC</span>
+                <a href="Degree Tc.pdf" target="_blank"><button class="preview-btn">Preview</button></a>
+                <a href="Degree Tc.pdf" download><button class="download-btn">Download</button></a>
+            </div>
+            <div class="file-item">
+                <span>DEGREE CERTIFICATE</span>
+                <a href="Degree provisional.pdf" target="_blank"><button class="preview-btn">Preview</button></a>
+                <a href="Degree provisional.pdf" download><button class="download-btn">Download</button></a>
+            </div>
+            <div class="file-item">
+                <span>RESUME</span>
+                <a href="KADIYALA DEEKSHITHA.pdf" target="_blank"><button class="preview-btn">Preview</button></a>
+                <a href="KADIYALA DEEKSHITHA.pdf" download><button class="download-btn">Download</button></a>
+            </div>
+            <div class="file-item">
+                <span>PHOTO</span>
+                <a href="photo_page-0001.jpg" target="_blank"><button class="preview-btn">Preview</button></a>
+                <a href="photo_page-0001.jpg" download><button class="download-btn">Download</button></a>
+            </div>
+            <div class="file-item">
+                <span>APSCHE CERTIFICATE</span>
+                <a href="apsche quiz.pdf" target="_blank"><button class="preview-btn">Preview</button></a>
+                <a href="apsche quiz.pdf" download><button class="download-btn">Download</button></a>
+            </div>
+            
+
+            <!-- Add more file items as in your original HTML code -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
